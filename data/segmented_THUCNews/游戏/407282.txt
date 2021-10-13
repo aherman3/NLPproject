@@ -1,0 +1,8 @@
+NVIDIA 考虑 将 PhysX 植入 OpenC L 体系 
+ NVIDIA GPU PhysX 物理 加速 技术 的 基础 是 其 CUDA 架构 ， 而 AMD 日前 在 GDC 2009 上 展示 的 类似 技术 则 是 基于 开放 通用 计算 标准 OpenCL ， 同时 NVIDIA 也 是 该 标准 的 制定者 和 支持者 之一 。 那么 ， PhysX 今后 何去何从 呢 ？ 
+ 在 发布 物理 技术 开发 包 “ NVIDIA APEX ” 之后 的 问答 环节 ， NVIDIA PhysX 产品 经理 Nadeem Mohammad 接受 了 采访 。 在 被 问及 PhysX 是否 可能 会 导入 OpenCL 的 时候 ， 他 回应 说 不 完全 反对 这个 主意 。 他 说 ， “ 就 现在 而言 ， CUDA 工作 得 非常 棒 ， (但 ) 在 未来 我们 也 有 可能 使用 OpenCL ” ， 而且 NVIDIA 的 显卡 “ 架构 也 允许 使用 OpenCL 等 其他 技术 进行 加速 ” 。 
+ Mohammad 表示 ： “ NVIDIA 与 Khronos Grou p(OpenC L 标准 制定 组织 ) 的 关系 非常 密切 。 事实上 ， 本 公司 副总裁 Neil Trevett 就是 这 一 组织 的 总裁 ， 所以 我们 也 在 推动 OpenC L 标准 ， 它 确实 是 一个 非常 出色 的 技术 规范 。 ” 
+ 大家 也许 还 记得 ， NVIDIA 在 收购 Ageia 之初 就 公开 表示 ， PhysX 技术 将 面向 业界 开放 ， 竞争 对手 也 可以 在 其 产品 上 使用 ， 但 也许 是 不 愿 受制 于 人 ， AMD 和 Intel 都 没有 接纳 PhysX ， 反而 宣传 使用 处理器 进行 物理 加速 才 是 未来 之 道 。 如果 PhysX 改而 使用 OpenC L 这样 的 开发 标准 呢 ？ 是 不是 意味着 A卡 也 可以 支持 PhysX 呢 ？ 
+ Mohammad 就此 评论 说 ： “ 如果 我们 开始 使用 OpenCL ， 那 就 ( PhysX )有 可能 也 可以 工作 在 ATI( 显卡 )上 ， 但 我 不 清楚 性能 表现 会 如何 …… (CUDA 仅 限 N卡 的 好处 就是 ) 我们 可以 只 针对 NVIDIA GPU 进行 测试 、 认证 和 服务 ， 不必 使 之 适合 每个 人 ， 所以 这是 我们 现在 以及 未来 转向 OpenC L时 的 小小 忧虑 。 我 真的 担心 ( 那样 将 ) 如何 把好 质量关 。 就 现在 而言 ， CUDA 是 为 Ge Force (显 卡) 进行 加速而生 的 ， 开发 人员 喜欢 这样 ， 实际 表现 也 非常 好 。 ” 
+
+ 

@@ -1,0 +1,38 @@
+OpenGL 创始 公司 SGI 被 2500万 美元 收购 
+ OpenGL 对于 电脑 游戏 玩家 来说 并不 是 一个 陌生 的 名词 ， 至少 当年 玩 过 反恐 精英 的 玩家 都会 在 游戏 设置 里面 看到 一个 OpenGL 项目 ， 那时 的 游戏 设置 界面 还 比较 简单 。 OpenGL 的 创始 公司 Silicon Graphics 在 1992年 开发 了 知名 的 2D / 3D 图形 应用 程序 编程 接口 （ API ） OpenGL 。 OpenGL 在 数字 图形 领域 有着 广泛 的 应用 ， 到 今天 OpenGL 标准 的 生命力 仍旧 顽强 ， 而 Silicon Graphics 就 不 那么 走运 了 。 
+ 据 国外 媒体 报道 ， 负债 高达 5亿 美元 的 Silicon Graphics 公司 ， 被 Rackable Systems 以 2500万 美元 收购 ， 后者 将 负担 部分 Silicon Graphics 的 债务 。 Rackable Systems 收购 Silicon Graphics 公司 的 目的 是 ， 增强 其 高性能 集群 和 云计算 业务 。 按照 美国 破产法 ， SGI 周三 在 纽约 提交 了 破产 申请 。 所以 这 桩 资产 收购 交易 需要 经 破产 法庭 批准 后 才能 生效 。 
+ SGI 公司 历程 ： 
+ 1982年 
+ 斯坦福 大学 Jim Clark 教授 离开 大学 开发 三维 计算机 图形 技术 ， 创办 了 Silicon Graphics 
+ 1984年 
+ 推出 第一 台 高端 三维 工作站 计算机 
+ 1986年 
+ 首次 公开 募股 1720万 美元 
+ 1992年 
+ 2280万 美元 购买 芯片 制造商 M IPS Computer Systems 
+ 1995年 
+ 收购 图形 软件 公司 Alias Research and Wavefront Technologies ， 花费 5亿 
+ 1996年 
+ 7. 4亿 收购 超级 计算机 公司 Cray Research 
+ 1997年 
+ 总收入 达到 36 . 6亿 
+ 1998年 
+ Rick Belluz zo 离开 惠普 成为 SGI 首席 执行官 ， 公司 售出 了 MIPS 公司 
+ 1999年 
+ Rick Belluz zo 突然 辞职 ， 加入 微软 
+ 2000年 
+ 售出 Cray Research ， 售出 价格 2200万 美元 
+ 2003年 
+ 公司 迁出 Mountain View 的 总部 ， 建筑物 租给 了 Google 
+ 2004年 
+ 售出 Alias Systems ， 售价 5800万 美元 
+ 2005年 
+ 今年 7月 ， 公司 被 纽约 证券 交易所 除名 
+ 2006年 5月 
+ 申请 破产 保护 
+ 2008年 8月 28日 
+ 2008 财年 的 收入 降为 前 一 年 的 24 % 
+ 2008年 12月 2日 
+ 纳斯达克 警告 ， 因为 该 公司 的 财务 问题 ， Silicon Graphics 有 可能 会 被 除名 。 
+
+ 

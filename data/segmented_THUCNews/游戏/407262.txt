@@ -1,0 +1,13 @@
+OpenG L 3.1 规范 公布 支持 GLSL 1.40 
+ 在 OpenG L 3 . 0 规范 发布 七 个 多 月 之后 ， Khronos Group 今天 又 公布 了 升级 版新 规范 OpenG L 3.1 ， 也 是 这 套 跨平台 免费 API 有史以来 的 第九 次 更新 。 
+ OpenG L 3.1 将 此前 引入 的 OpenG L 着色 语言 “ GLSL ” 从 1. 30 版 升级 到 了 1.40 版 ， 通过 改进 程序 增强 了 对 最新 可 编程 图形 硬件 的 访问 ， 还有 更 高效 的 顶点 处理 、 扩展 的 纹理 功能 、 更 弹性 的 缓冲 管理 等等 。 宽泛 地 讲 ， OpenG L 3.1 在 3 . 0版 的 基础 上 对 整个 API 模型 体系 进行 了 简化 ， 可 大幅 提高 软件 开发 效率 。 
+ OpenG L 3.1 主要 新 特性 ： Texture Buffer Object s( 纹理 缓冲 对象 ) 、 Uniform Buffer Object s( 统一 缓冲 对象 ) 、 Signed Normalized Texture s( 符号 正常 化纹 理) 、 Primitive Restart ( 基本 元素 重启) 、 Instancing( 实例 化) 、 Copy Buffer API( 拷贝 缓冲 接口 ) …… 
+ 与 OpenG L 3.1 规范 同步 ， OpenGL 架构 评审 委员会 (ARB) 也 发布 了 一个 兼容性 扩展 ， 能 让 开发 人员 在 访问 OpenG L 3.1 里 已经 删除 的 OpenG L 1. x / 2 . x 功能 ， 确保 应用 程序 的 全面 向下 兼容性 。 
+ OpenG L 3.1 公布 后 ， 业界 图形 厂商 很快 予以 了 大力 支持 。 AMD OpenGL 主管 Suki Samra 表示 ： “ AMD 全面 用户 OpenG L API ， 会 在 今后 的 Radeon 和 Fire Pro 产品 驱动 程序 中 支持 OpenG L 3.1 。 ” NVIDIA 市场 营销 副总裁 Dan Vivoli 表示 ： “ NVIDIA 承诺 尽快 部署 OpenG L 3.1 ， 我们 也 很 自豪 地 在 规范 公布 同一天 放出 了 自己 的 测试版 驱动 程序 。 ” 
+ 市场 调研 机构 Jon Peddie Research 预测 ， OpenG L 3.1 规范 图形 硬件 的 安装 规模 将 超过 1亿 。 AMD 、 NVIDIA 、 S3 Graphics 的 显卡 驱动 目前 都 已经 支持 OpenG L 3 . 0 。 
+ 相关 文档 ： 
+ OpenG L 3.1 规范 
+ OpenG L 3.1 规范 ( ARB 兼容 扩展 ) 
+ OpenG L 着色 语言GLS L 1.40 
+
+ 

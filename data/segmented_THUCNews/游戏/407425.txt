@@ -1,0 +1,14 @@
+NVIDIA 新 推出 Windows 7 WHQL 认证 驱动 
+ Windows 7 的 推出 可 让 Windows 操作 系统 大幅 提升 运用 图形 处理器 （ GPU ） 提供 更 棒 使用 体验 的 能力 。 在 Windows 7 发 布release candidate 版本 之际 ， NVIDIA 率先 针对 桌面型 电脑 及 笔记型 电脑 发布 全新 WHQL （ Windows 硬件 品质 实验室 ） 认证 的 图形 驱动 程序 。 
+ 通过 GPU 的 图形 著色 与 平行 运算 技术 ， 拥有 Direct X Compute 功能 的 Windows 7 操作 系统 不但 可以 在 外观 和 功能 上 提供 更 佳 的 清晰度 与 焦点 ， 确保 最 优异 的 桌面 使用 经验 ， 更 可以 用 惊人 的 速度 与 反应 时间 带给 消费者 愉快 的 使用 体验 。 
+ NVIDIA 公司 软件 研发 工程 副总裁 Dwight Diercks 表示 ： “ Windows 7 的 使用者 现在 绝对 拥有 最 先进 的 性能 ， 以及 对 SLI 、 PhysX 、 3D Vision 与 Direct X Compute 等 功能 的 所有 支持 。 使用者 现在 大 可以 放心 ， 因为 不论是 在 Windows 7 操作 环境 中 运行 游戏 、 影片 格式 转换 ， 以及 获得 整体 更 棒 的 运算 体验 都 不是 问题 ， 因为 我们 拥有 正宗 的 微软 WHQL 认证 ， 这是 最好 的 保证 。 ” 
+ 185 . 85 版本 的 WHQL 认证 驱动 程序 支持 微软 的 全新 Windows 7 显示 驱动 程序 WD DMv 1.1 。 通过 NVIDIA Direct X 10 GPU 的 强大 威力 ， WDD Mv 1.1 驱动 程序 可以 带给 Windows 7使用者 优质 的 视觉 体验 。 
+ Ge Force / I ON 185 . 85 WHQL多国 语言 正式版 下载 ： 
+ Windows XP / XP MCP 
+ Windows XP Pro 64 - bit 
+ Windows Vista 32 - bit 
+ Windows Vista 64 - bit 
+ Windows 7 32 - bit 
+ Windows 7 64 - bit 
+
+ 

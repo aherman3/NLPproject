@@ -70,8 +70,10 @@ def calculate_standard_dev(d):
     return sd # = 33
 
 def main():
-    FREQUENCY_DICT = load_frequencies()
-    print(FREQUENCY_DICT['就'])
+    #FREQUENCY_DICT = load_frequencies()
+    doc = nlp("我喜欢自然语言处理。")
+    for token in doc:
+        print(token.text)
 
 if __name__ == "__main__":
     main()

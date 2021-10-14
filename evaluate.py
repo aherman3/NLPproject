@@ -25,13 +25,17 @@ def evaluate(file, found):
         if word not in found:
             false_neg += 1
     f_score = true_pos / (true_pos + 0.5*(false_pos + false_neg))
+    print(f'fp: {false_pos}, fn: {false_neg}, tp: {true_pos}')
     return f_score
 
 def write_study_guide(d):
     # mean & standard deviation calculated in data_setup.py calculate_standard_dev()
     mean = 34
     sd = 33
-    min_freq = mean + 2*sd
+    min_freq = mean + 4*d
+
+    S = '\033[4m'
+    E = '\033[0m'
 
     path = "data/test/segmented_text"
     for file in os.listdir(path):
@@ -47,19 +51,20 @@ def write_study_guide(d):
             if s in d:
                 if d[s] < min_freq:
                     found.append(s)
-                    outfile.write(s + translate(s))
+                    outfile.write(S + s + E + translate(s))
                 else:
                     outfile.write(s)
             else:
                 found.append(s)
-                outfile.write(s + translate(s))
+                outfile.write(S + s + E + translate(s))
 
 def analyze_frequency(d):
     # mean & standard deviation calculated in data_setup.py calculate_standard_dev()
     mean = 34
     sd = 33
-    min_freq = mean + 2*sd
+    min_freq = mean + 4*sd
 
+    total_f1 = 0
     path = "data/test/segmented_text"
     for file in os.listdir(path):
         file_path = path + '/' + file
@@ -75,7 +80,10 @@ def analyze_frequency(d):
             else:
                 found.append(s)
         f_score = evaluate(file, found)
+        total_f1 += f_score
         print(f'{file} F1: {f_score}')
+    print(f'Total F1: {total_f1/6}')
+
         
 def translate(s):
     translator = Translator()
@@ -100,7 +108,6 @@ def num_or_eng(s):
 def main():
     FREQUENCY_DICT = load_frequencies()
     analyze_frequency(FREQUENCY_DICT)
-    #write_study_guide(FREQUENCY_DICT)
 
 if __name__ == "__main__":
     main()

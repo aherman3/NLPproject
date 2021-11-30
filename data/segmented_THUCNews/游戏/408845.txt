@@ -1,0 +1,39 @@
+《 使命 召唤 7 ： 黑色 行动 》 发布 更新 档 
+ 刚刚 约 8点多 官方 放出 第一 次 更新 档案 ， 大小 约 5.1 MB 。 
+ 凌晨 时 放出 第二 个 更新 档案 ， 单机 为 7. 6MB多 人为 8 . 0 MB ， 没 看见 官方 关于 修改 的 文章 。 
+ 也 还 没 进行 测试 ， 等等 附上 测试 结果 ， 
+ 如果 看 不 到 更新 请 点" 右键 - > 内容 - >本机 档案 - > 确认 游戏 快取 完整性 " ， STEAM 就 会 出现 下载 了 。 
+ 下面 是 官方 放出 的 暂时 解法 ， 不 一定 有效 ， 除了 第三 点 前面 都 是 屁话 。 
+ For all the PC players out there , we have a few tips and tweaks that should help you get the most out of your PC perfor mance while we await a patch that Treyarch is in the process of developing and pushing out 。 
+ The following tip was submitted to us by a member of the staff over at Curse 。 
+ Here are a few tweaks that will help you a lot : 
+ Install latest direct x version (this helped the most) ? you can grab that here 。 
+ Install new graphics card drivers (ATI and Nvidia) 
+ Make sure to allow Black O ps to use multi cores : go to your steam folder , which was Local Dis K\ Steam\steamapps\common\call of duty black ops\players for me . This may vary for you , however . Search for “ seta r _ multithreaded _ device 0 ″ and change it to “ seta r _ multithreaded _ device 1 ″ . Do this for singleplayer and multiplayer 。 
+ We hope that this helps increase your PC perfor mance while we wait for Treyarch to get that sorted out for us . We know they are working hard on that for us , but wed like to give you the best game you can have while we wait 。 
+ Good luck and feel free to let us know in the comments or over at the forum how this worked for you , and dont hesitate to throw any more tips and tweaks out there for the PC community 。 
+ 1. 安装 最新 的 Direct x( 这个 帮助 最 大 ) 
+ 2 . 安装 最新 的 显示卡 驱动 程式 。 
+ 3 . 进入 steam 资料 夹 ， 找到 player 文件夹 下 的 config.cfg(X : \Steam\ SteamApps\common\call of duty black ops\players 就是 这个 档案 ， 有 两 个 ， 后面 有 MP 的 是 连线 ， 都 要 更改 。 ) ， 用笔 记本 打开 ， 查找 seta r _ multithreaded _ device 并 把 后面 的 0 改成 1 ( 允许 游戏 使用 多 核心 处理 ) 
+ 等 测试 完 再 看看 有 没有 改善 。 
+ 心得 ： 
+ 我 开心 的 笑 了 ， 更 新包 有点 用处 的 说 ， 
+ 刚 开始 片头 还是 会 LAG 等 进入 游戏 后 就 没有 这个 问题 了 ， 
+ 我 是 I5 ， GTS 250 ， 4GRAM 。 
+ 续玩 下去 发现 跟 动画 有关 ， 只要 一 跑 过场 动画 就 会 开始 停顿 ， 
+ 似乎 是 因为 把 动画 跟 游戏 读 取放 一起 导致 的 问题 ， 
+ 不过 还 没 看到 CPU 爆表 ， 还算 满意 ， 游戏 中 也 没 发生 停顿 的 问题 。 
+ 实验 后 证实 ， 读取 时 会 导致 影片 严重 延迟 ， 
+ 当 画面 出现 点 左键 继续 后 的 影片 都 是 正常 拨放 ， 
+ 到底 是 哪个 白痴 把 读取 时间 调 的 那么 短 的 =ㄦ = 
+ 虽然 这样 很 有 连续性 ， 感觉 一直 都 在 游戏 中 ， 但是 根本 跑 不 动 啊 ， 
+ 难怪 I7 以上 的 才 可以 勉强 跑 ， 不然 就 只能 请 神手 压缩 影片 大小 来 改善 了 。 
+ 原本 想 制造 的 一直 在 游戏 气氛 中 ， 完完全全 被 破坏 了 ， 谁 会 说话 到 一半 突然 停住 啊 ！ !! 
+ 这下 ? 翻 了 ， 小 玩 一下 连线 ， 没有 想像 中 的 严重 L AG 到爆 ， 顶多 就是 偶尔晃 一下 ， 
+ 不过 STEA M伺 服器 连线 不是 很 稳定 ， 我 就 发生 两 次 没有 退出 就 断线 ， 
+ XXX ， 我 练 到 10 等 的 记录 就 再见 了 QA Q 
+ 这 跟 STEAM 一定 要 退出 到 桌面 才 会 启动 记录 成绩 有关 吗 ？ !! 
+ 这样 很 危险 的 说 ， 外 一不小心 断线 刚刚 就 白玩 了 QA Q 
+ 对 了 ， 我 STEAM 的 ID 是 a 7199493 可以 加 我 一起 游戏 喔 > . 0 
+
+ 

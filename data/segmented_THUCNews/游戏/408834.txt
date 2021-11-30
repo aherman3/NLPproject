@@ -1,0 +1,18 @@
+压力 不大 ! 《 鹰击长空 2 》 配置 需求 公布 
+ 经过 被 多次 跳票 《 鹰击长空 2 》 PC版 即将 在 11月 16日 上市 ， 今天 官方 公布 了 游戏 的 配置 需求 信息 ， 看上去 并不 惊人 ， 不过 显卡 信息 并 没有 列出 具体 型号 级别 ， 但 却 只 要求 256M 。 不 知道 该 作 在 画面 上 针对 主机 还 能否 有 大幅 增强 。 
+ 最低 配置 ： 
+ - CPU ： 奔腾 D 3 . 0 GHz 或 AMD Athlon 64 X2 3800 + @ 2.0 GHz 
+ - 显卡 ： 256 MB 显存 ， 支持 Shader Model 3 
+ - 内存 ： XP / 1 GB ， Vista   Windows 7 / 2 GB 
+ - 硬盘 ： 9 G B剩余 
+ 推荐 配置 ： 
+ - CPU ： Core 2 Duo E4300   或   AMD Athlon X2 5000 + 
+ - 显卡 ： 256 MB 显存 ， 支持 Shader Model 4 
+ - 内存 ： 2 GB 
+ - 控制器 ： Xbox 360 控制器 
+ 支持 显卡 ： 
+ - Nvidia Georce 6800 / Georce 7 / Georce 8 / Georce 9 / Georce GT 200 / GT 400 Georce 
+ - Ati Radeon HD 2000 / HD 3000 / HD 4000 / HD 5000 series 
+ - Ati Crossfire / SLI Nvidia 
+
+ 

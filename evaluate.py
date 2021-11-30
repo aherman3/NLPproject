@@ -1,15 +1,59 @@
+#!/usr/bin/env python
+
 import pickle
 import os
-import googletrans
 from googletrans import Translator
 import re
 from tqdm import tqdm
+import sys
+import spacy
+import torch
+from cjklib import characterlookup
 
-def load_frequencies():
-    infile = open("data/frequency_dict.pkl", 'rb')
-    FREQUENCY_DICT = pickle.load(infile)
-    infile.close()
-    return FREQUENCY_DICT
+nlp = spacy.load("zh_core_web_sm")
+cjk = characterlookup.CharacterLookup('T')
+
+# mean & standard deviation calculated in data_setup.py calculate_standard_dev()
+mean = 34
+sd = 33
+min_freq = mean + 4*sd
+
+S = '\033[4m'
+E = '\033[0m'
+
+if torch.cuda.device_count() > 0:
+    device = 'cuda'
+else:
+    device = 'cpu'
+
+def translate(s):
+    translator = Translator()
+    source_lan = "zh-cn"
+    translated_to = "en"
+    try:
+        translation = translator.translate(s, src=source_lan, dest = translated_to)
+    except:
+        return ""
+    return "(" + translation.text + ")"
+
+
+def num_or_eng(s):
+    chinese_nums = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十']
+    if len(s) == 0:
+        return True
+    if any(i in chinese_nums for i in s):
+        return True
+    if any(i.isdigit() for i in s):
+        return True
+    if re.search(r'[a-zA-Z]', s):
+        return True
+    my_punct = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '.', '…', '（', '）', '·', '',
+           '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '、', '！', '—', '\xa0',
+           '`', '{', '|', '}', '~', '»', '«', '“', '”', '\n', '。', '，', '《', '》', '：', '；', '【', '】', '？', '-']
+    if any(i in my_punct for i in s):
+        return True
+    return False
+
 
 def evaluate(file, found):
     real = open("data/test/vocab/" + file, 'r').read().split('\n')
@@ -28,15 +72,8 @@ def evaluate(file, found):
     print(f'fp: {false_pos}, fn: {false_neg}, tp: {true_pos}')
     return f_score
 
+
 def write_study_guide(d):
-    # mean & standard deviation calculated in data_setup.py calculate_standard_dev()
-    mean = 34
-    sd = 33
-    min_freq = mean + 4*d
-
-    S = '\033[4m'
-    E = '\033[0m'
-
     path = "data/test/segmented_text"
     for file in os.listdir(path):
         file_path = path + '/' + file
@@ -45,69 +82,96 @@ def write_study_guide(d):
         found = []
         outfile = open("results/" + file, "w")
         for s in tqdm(segments):
-            if num_or_eng(s): # skip numbers and english words
-                outfile.write(s)
-                continue
-            if s in d:
-                if d[s] < min_freq:
-                    found.append(s)
-                    outfile.write(S + s + E + translate(s))
-                else:
-                    outfile.write(s)
-            else:
+            advanced = check_advanced(s, d)
+            if advanced:
                 found.append(s)
                 outfile.write(S + s + E + translate(s))
+            else:
+                outfile.write(s)
+        outfile.close()
+
+
+def write_study_guide_demo(d, t, type):
+    found = []
+    if type == 't':
+        path = "results/demo_temp.txt"
+    else:
+        path = "results/" + type 
+    outfile = open(path, "w")
+
+    segments = nlp(t)
+    for s in segments:
+        s = s.text
+        advanced = check_advanced(s, d)
+        if advanced:
+            found.append(s)
+            outfile.write(S + s + E + translate(s))
+        else:
+            outfile.write(s)
+    outfile.close()
+    cat = open(path, 'r').read()
+    print(cat)
+
+
+def stroke_count(w):
+    total = 0
+    if len(w) == 0:
+        return 0
+    for c in w:
+        try:
+            total += cjk.getStrokeCount(c)
+        except:
+            return 0
+    return total/len(w) # average stroke count of word
+
+
+def check_advanced(s, d):
+    if num_or_eng(s): # skip numbers and english words
+        return False
+    if s in d:
+        if d[s] < min_freq: # low freq, advanced
+            strokes = stroke_count(s)
+            if strokes > 5:
+                return True
+        return False
+    return True # word never seen, advanced
+
 
 def analyze_frequency(d):
     # mean & standard deviation calculated in data_setup.py calculate_standard_dev()
-    mean = 34
-    sd = 33
-    min_freq = mean + 4*sd
 
     total_f1 = 0
     path = "data/test/segmented_text"
+    file_count = 0
     for file in os.listdir(path):
+        file_count += 1
         file_path = path + '/' + file
         text = open(file_path, 'r').read()
         segments = text.split(' ')
         found = []
         for s in segments:
-            if num_or_eng(s): # skip numbers and english words
-                continue
-            if s in d:
-                if d[s] < min_freq:
-                    found.append(s)
-            else:
+            advanced = check_advanced(s, d)
+            if advanced:
                 found.append(s)
         f_score = evaluate(file, found)
         total_f1 += f_score
         print(f'{file} F1: {f_score}')
-    print(f'Total F1: {total_f1/6}')
+    print(f'Total F1: {total_f1/file_count}')
 
-        
-def translate(s):
-    translator = Translator()
-    source_lan = "zh-cn"
-    translated_to = "en"
-    try:
-        translation = translator.translate(s, src=source_lan, dest = translated_to)
-    except:
-        return ""
-    return "(" + translation.text + ")"
-
-
-def num_or_eng(s):
-    chinese_nums = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十']
-    if any(i in chinese_nums for i in s):
-        return True
-    if any(i.isdigit() for i in s):
-        return True
-    if re.search(r'[a-zA-Z]', s):
-        return True
 
 def main():
-    FREQUENCY_DICT = load_frequencies()
+    FREQUENCY_DICT = torch.load('data/frequency_dict')
     analyze_frequency(FREQUENCY_DICT)
+
+    # demo
+    if len(sys.argv) > 1:
+        if sys.argv[1] == '-t': # demo with text input
+            input = ' '.join(sys.argv[2::])
+            write_study_guide_demo(FREQUENCY_DICT, input, 't')
+        if sys.argv[1] == '-f': # demo with file input
+            file = open(sys.argv[2], 'r').read()
+            filename = sys.argv[2].split('/')[-1]
+            write_study_guide_demo(FREQUENCY_DICT, file, filename)
 
 if __name__ == "__main__":
     main()

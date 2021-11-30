@@ -1,0 +1,22 @@
+曝 《 战场 2：库尔斯克 1943 》 配置 需求 
+ 今天 《 战场 2：库尔斯克 1943 》 官方 发布 了 一批 新图 ， 并 公布 了 游戏 的 详细 信息 ， 库尔斯克 战役 是 二战 期间 的 一 次 重要 的 冲突 战 ， 发生 在 1943年 7月 5日 —— 8月 23日 ， 为期 49 天 。 
+ 配置 需求 信息 ： 
+ 推荐 配置 ： 
+ 操作 系统 ： 64 - bit Windows Vista or Windows 7 
+ CPU ： Intel Core 2 Duo E8400 or AMD Phenom II X 550 
+ 内存 ： 4GB 
+ 显卡 ： nVidia GF 8800 or AMD Radeon HD 4850 with 512 M B RAM or better 
+ 声卡 ： 兼容 Direct X 9 
+ 硬盘 ： 3.5 GB 剩余 空间 
+ DVD - ROM drive (for the disc version ) 
+ 最低 配置 ： 
+ 操作 系统 ： Windows XP or Vista 
+ CPU ： Intel Core 2 Duo or AMD Athlon 64 X2 ( 2 , 4 GHzor better ) 
+ 内存 ： 2 GB 
+ 显卡 ： nVidia Ge Force 6600 or AMD Radeon X 1900 with 256 MB RAM or better 
+ 声卡 ： 兼容 Direct X 9 
+ 硬盘 ： 3.5 GB 剩余 空间 
+ DVD - ROM drive (for the disc version )  
+ 最新 截图 ： 
+
+ 

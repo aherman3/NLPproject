@@ -1,0 +1,40 @@
+超全 总结 ： SAT应试 必备 数学 经典 试题 
+ 四 、 SAT 数学 试题 
+ 作者 想 通过 下面 一 组 试题 让 读者 对 SAT 数学 有 一个 直接 的 感受 。 这些 题目 均 来自 SAT 考试 试题 ， 故请 注意 它们 的 出题 方式 ， 难易 程度 ， 特别是 语言 的 表述 方法 。 希望 读者 读 一 读 ， 想 一 想 ， 做 一 做 。 如果 你 的 英语 基础 比较 好 ， 看一看 能否 在 较 短 的 时间 内 完成 它们 。 考试 时 的 解题 速度 应该 在 平均 1 道题 70 秒钟 以内 。 
+ 1. 试题 
+ 1. If 10 + x is 5 more than 10 , what is the value of 2 x ? 
+ ( A) - 5     (B ) 5     (C ) 10     (D ) 25     (E ) 50 
+ 2 . If (x -2 ) 2 = 49 , then x could be 
+ (A ) - 9     (B ) - 7     (C ) 2     (D ) 5     (E ) 9 
+ 3 . If this page was folded along the dotted line in the figure above , the left half of the letter W would exactly coincide with the right half of W . Which of the following letters , as shown , CA N NOT be folded along a vertical line so that its left half would coincide with its right half ? 
+ (A ) A     (B ) I     (C ) O     (D ) U     (E ) E 
+ 4. In a certain store , the regular price of a refrigerator is $ 600 . How much money is saved by buying this refrigerator at 20 percent of f the regular price rather than buying it on sale at 10 percent of f the regular price 
+ with an additional discount of 10 percent of f the sale price ? 
+ (A ) $ 6     (B ) $ 12     (C ) $ 24     (D ) $ 54     (E ) $ 60 
+ 5. Which of the following is the graph of a function f such that f(x) = 0 for exactly two values of x between 
+ - 5 and 5 ? 
+ (A )                          (B ) 
+ (C )                          (D ) 
+ (E ) 
+ 6 . Based on the portions of the graphs of the functions f and g shown above , what are all values of x between - 6 and 6 for which g x f x ? 
+ (A ) - 6 < x < -3 only      (B ) -3 < x < 0 only     (C ) 0 < x < 3 only 
+ (D ) 3 < x < 6 only     (E ) - 6 < x < -3 and 0 < x < 3 。 
+ 7. Point O is the center of both circles in the figure above . If the circumference of the large circle is 36 and the radius of the small circle is half of the radius of the large circle , what is the length of the darkened arc ? 
+ (A ) 10     (B ) 8     (C ) 6     (D ) 4     (E ) 2 
+ 8 . If x = 20 and y = 30 in the figure above , what is the value of z ? 
+ (A ) 60     (B ) 70     (C ) 80     (D ) 90    (E ) 100 
+ 9 . If 6 < | x -3 | < 7 and x < 0 , what is one possible value of | x | ? 
+ 10 . What is the product of the smallest prime number that is greater than 50 and the greatest prime number that is less than 50 ? 
+ 2 . 答案 
+ 1. ( C) ，    2 . (E) ，    3 . (E) ，    4. ( A) ， 5. ( D) ，   6 . (B) ，    7. ( D) ，    8 . (B) ，    9 . x < 4 ,    10 . 1300 
+ 第二 节 SAT阅 读 
+ SAT 的 阅读 部分 对 中国 学生 来说 是 最 难 对付 的 了 ， 一 是 它 的 词汇量 要求 极 大 ； 二 是 它 对 时间 的 要求 甚严 ， 三 是 它 的 问题 中 有 一些 即使 翻译 成 汉语 也 是 很 不 好 回答 的 。 
+ SAT阅读 部分 由 3 个 试卷 共 65 道选 择题 组成 ， 均 是 选择 试题 。 每道 选择题 有 五 项 选择 答案 ， 总 测试 时间 为 70 分钟 。 下表 是 阅读 试题 的 一个 得 分换 算表 ， 尽管 每次 考试 的 得分 表略 有 不同 ， 但 不 会 有 大 的 变化 。 表中 左面 的 一 列 是 原始 分数 ( R=C - W) ， 右面 的 一 列为 最终 得分 。 
+ 表 5 - 2-1 SAT阅读 考试 的 原始 分数 和 总分数 的 换算 表 
+ 这里 ， C 是 英文 Correct 的 缩写 ， 它 代表 答对 的 题目 数 ； W 是 英文 Wrong 的 缩写 ， 代表 答错 的 多 项 选择 题数 乘以 1/4 后 再 把 结果 四舍五入 后 得到 的 值 。 
+ 如果 一 位 考生 答对 了 65 道题 ， 错 了 2 道题 ， 那么 他 的 C = 65 ， W= 1 ( 2 * 1/4 = 0.5 , 四舍 五入) ， 所以 的 R=C - W= 65 - 1 = 64 ； 由 上表 得知 该 考生 的 SAT阅读 部分 的 得分 是 满 分( 800 分) 。 由此可见 在 SAT 考试 中 尽管 你 错 了 题 ， 但 仍然 可能 得 满分 。 
+ 本节 将 通过 如下 的 4部分 内容 使 读者 对 SAT 阅读 有 一个 清晰 的 认识 和 基本 的 了解 。 这 4 部分 是 SAT阅读 考核 何种 能力 ； SAT阅读 的 出题 方式 ； SAT阅读 的 特点 ； SAT阅读 的 典型 试题 。 
+ 一 、 SAT阅读 考核 何种 能力 
+ SAT阅读 不是 测试 考生 掌握 了 多少 文学 知识 ， 也 不是 考核 考生 掌握 了 多少 修辞 技巧 ， 它 是 通过 语言 这个 媒介 测试 考生 的 综合 理解 和 分析 能力 ， 或者 更为 露骨 的 说 它 是 在 考核 考生 的 智商 。 在 前面 我们 已经 说 过 今天 的 SAT 考试 起源于 智商 考试 ， 故直 至 今日 SAT阅读 试题 仍然 有 智商 考试 的 影子 ， 它 注重 考核 阅读 速度 ， 速记 能力 ， 分析 能力 ， 快速 归纳 能力 等 ； 而 不 考核 文学 常识 ， 修辞 方法 ， 组造句 等 一般 的 语文 内容 ， 可以 说 这 一 考试 与 美国 高中 4 年 所 学 的 语文 课程 没有 什么 直接 的 关联 ， 也就是说 它 纯粹 是 能力 考试 而 不是 知识 考试 。 这 与 中国 高考 的 语文 考试 是 大 不 相同 的 。 
+
+ 

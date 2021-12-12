@@ -2,7 +2,7 @@
 # Annie Hermann #
 
 ### Baseline ###  
-Code in baseline.py
+Code in baseline.py  
 Baseline testing output:    
 Total F1: 0.3621471159325782  
 

@@ -11,8 +11,7 @@ Naive Bayes Classifier testing Total F1: 0.2339127632039389
 
 ### Neural Network ###  
 Code in neural_net.py  
-Neural Net testing output:  
-Total F1: 0.403  
+Neural Net testing Total F1: 0.403  
 Neural Net + NB Classifier testing Total F1: 0.4304520261023754  
 
 ### Demo ###  

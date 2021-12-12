@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import os
 import re
+from baseline import num_or_eng
 import torch
 
 alpha = 0.1
@@ -91,8 +92,10 @@ def test():
         segments = text.split(' ')
         found = []
         for s in segments:
+            if num_or_eng(s):
+                continue
             advanced = test_word(s)
-            if advanced > 5:
+            if advanced >= 5:
                 found.append(s)
     
         real = open("data/test/vocab/" + file, 'r').read().split('\n')
@@ -117,7 +120,7 @@ def test():
 def main():
     HSK_DICT = torch.load('data/bayes_params/HSK_DICT')
 
-    NB(HSK_DICT)
+    #NB(HSK_DICT)
     test()
 
 if __name__ == "__main__":

@@ -12,17 +12,16 @@ nlp = spacy.load("zh_core_web_sm")
 '''
 annotate input sentence or file
 '''
-def write_study_guide_demo(m, t, type):
+def write_study_guide_demo(m, t):
     found = []
-    if type == 't':
-        path = "results/demo_temp.txt"
-    else:
-        path = "results/" + type 
-    outfile = open(path, "w")
+    outfile = open("results/demo_temp.txt", "w")
 
     segments = nlp(t)
     for s in segments:
         s = s.text
+        if num_or_eng(s):
+            outfile.write(s)
+            continue
         encoding = torch.tensor(encode(s), dtype=torch.float)
         pred = m(encoding)
         level_pred = torch.argmax(pred).item()
@@ -32,7 +31,7 @@ def write_study_guide_demo(m, t, type):
         else:
             outfile.write(s)
     outfile.close()
-    cat = open(path, 'r').read()
+    cat = open("results/demo_temp.txt", 'r').read()
     print(cat)
 
 def main():
@@ -42,11 +41,11 @@ def main():
     if len(sys.argv) > 1:
         if sys.argv[1] == '-t': # demo with text input
             input = ' '.join(sys.argv[2::])
-            write_study_guide_demo(m, input, 't')
+            write_study_guide_demo(m, input)
         if sys.argv[1] == '-f': # demo with file input
             file = open(sys.argv[2], 'r').read()
             filename = sys.argv[2].split('/')[-1]
-            write_study_guide_demo(m, file, filename)
+            write_study_guide_demo(m, file)
 
 if __name__ == "__main__":
     main()

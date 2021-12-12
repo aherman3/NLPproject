@@ -207,7 +207,7 @@ def train_net(m):
             print(f"lr={optimizer.param_groups[0]['lr']}")
 
         if dev_acc > best_dev_acc:
-            torch.save(m, 'model3')
+            torch.save(m, 'model')
             best_dev_acc = dev_acc
 
         prev_dev_acc = dev_acc
@@ -218,9 +218,10 @@ def train_net(m):
 def main():
     # HSK ANN
     net = Net()
+    train_encode()
     #train_net(net)
-    m = torch.load('model')
-    test_net(m)
+    #m = torch.load('model')
+    #test_net(m)
 
     #train()
 

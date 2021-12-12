@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 
-import pickle
+'''
+baseline:
+- use frequency dict to find freq of each word in test files
+- if frequency below certain limit, considered advanced
+- write study guide with advanced words underlined and translated with googletrans
+'''
+
 import os
 from googletrans import Translator
 import re
@@ -13,19 +19,12 @@ from cjklib import characterlookup
 nlp = spacy.load("zh_core_web_sm")
 cjk = characterlookup.CharacterLookup('T')
 
-# mean & standard deviation calculated in data_setup.py calculate_standard_dev()
-mean = 34
-sd = 33
-min_freq = mean + 4*sd
-
 S = '\033[4m'
 E = '\033[0m'
 
-if torch.cuda.device_count() > 0:
-    device = 'cuda'
-else:
-    device = 'cpu'
-
+'''
+get gooogletrans English translation of Chinese word
+'''
 def translate(s):
     translator = Translator()
     source_lan = "zh-cn"
@@ -36,7 +35,9 @@ def translate(s):
         return ""
     return "(" + translation.text + ")"
 
-
+'''
+if word contains numbers, English letters, or punctuation return False
+'''
 def num_or_eng(s):
     chinese_nums = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十']
     if len(s) == 0:
@@ -53,7 +54,6 @@ def num_or_eng(s):
     if any(i in my_punct for i in s):
         return True
     return False
-
 
 def evaluate(file, found):
     real = open("data/test/vocab/" + file, 'r').read().split('\n')
@@ -72,7 +72,10 @@ def evaluate(file, found):
     print(f'fp: {false_pos}, fn: {false_neg}, tp: {true_pos}')
     return f_score
 
-
+'''
+annotate all test files
+input: frequency dict
+'''
 def write_study_guide(d):
     path = "data/test/segmented_text"
     for file in os.listdir(path):
@@ -91,6 +94,9 @@ def write_study_guide(d):
         outfile.close()
 
 
+'''
+annotate input sentence or file
+'''
 def write_study_guide_demo(d, t, type):
     found = []
     if type == 't':
@@ -124,8 +130,14 @@ def stroke_count(w):
             return 0
     return total/len(w) # average stroke count of word
 
-
+'''
+frequencies above mean + 4*standard dev considered advanced
+'''
 def check_advanced(s, d):
+    # mean & standard deviation calculated in data_setup.py calculate_standard_dev()
+    mean = 34
+    sd = 33
+    min_freq = mean + 4*sd
     if num_or_eng(s): # skip numbers and english words
         return False
     if s in d:
@@ -136,10 +148,10 @@ def check_advanced(s, d):
         return False
     return True # word never seen, advanced
 
-
+'''
+test using word frequency dict
+'''
 def analyze_frequency(d):
-    # mean & standard deviation calculated in data_setup.py calculate_standard_dev()
-
     total_f1 = 0
     path = "data/test/segmented_text"
     file_count = 0

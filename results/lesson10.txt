@@ -1,6 +1,6 @@
-GoogleCEO说，[4m人工[0m(Artificial)[4m智能[0m(intelligent)技术必须要受到监管
-自去年12月被[4m任命[0m(appointment)为Google[4m母公司[0m(parent company)——Alphabet的CEO后，[4m桑达尔·[0m(Sandal)[4m皮蔡[0m(Pi Cai)近日于《金融时报》发表[4m专栏[0m(Column)文章，呼吁市场建立合理的[4m法规[0m(Regulation)，对人工智能技术实施更好的监管。
-在他看来，大公司不能一味地只是发展[4m前沿[0m(cutting edge)技术，再想着“通过市场来决定该如何使用它”，相反，公司同样有责任确保新技术能[4m造福[0m(benefit)所有人，而不会被[4m任意[0m(Arbitrary)[4m滥用[0m(abuse)，对社会带来不好影响。
+GoogleCEO说，人工智能技术必须要受到监管
+自去年12月被[4m任命[0m(appointment)为Google[4m母公司[0m(parent company)——Alphabet的CEO后，桑达尔·[4m皮蔡[0m(Pi Cai)近日于《金融时报》发表[4m专栏[0m(Column)文章，[4m呼吁[0m(call)市场建立合理的[4m法规[0m(Regulation)，对人工智能技术实施更好的监管。
+在他看来，大公司不能一味地只是发展[4m前沿[0m(cutting edge)技术，再想着“通过市场来决定该如何使用它”，相反，公司同样有责任确保新技术能[4m造福[0m(benefit)[4m所有人[0m(Everyone)，而不会被[4m任意[0m(Arbitrary)[4m滥用[0m(abuse)，对社会带来不好影响。
 对于“新技术是一把[4m双刃剑[0m(Double-edged sword)”的问题，皮蔡还[4m列举[0m(Enumerate)了历史上的一些例子。
 比如说[4m内燃机[0m(internal combustion engine)的出现便[4m扩展[0m(Expand)了人类对地球的探索，但与此同时也造成了很多安全事故。
 另外，随着互联网的逐渐[4m普及[0m(universal)，信息沟通成本在迅速降低，但也让很多[4m谣言[0m(rumor)和错误[4m言论[0m(Speech)更容易被[4m扩散[0m(diffusion)。
@@ -9,19 +9,19 @@ GoogleCEO说，[4m人工[0m(Artificial)[4m智能[0m(intelligent)技术必须
 “人工智能具有改善数十亿人生活的技术潜力，但最大的风险可能是我们无法做到这一点。
 因此，监管和立法仍然是有必要的。”
 按照皮蔡的说法，他[4m主张[0m(Advocate)对人工智能技术采取谨慎的监管，以避免法规对技术发展造成[4m阻碍[0m(Obstruct)。
-其中像自动[4m驾驶[0m(drive)汽车这样的新领域，就需要制定“适当的新规则”；而在医疗[4m保健[0m(health care)这块，则可以将一部分已经成熟的法规体系运用在人工智能类的[4m辅助[0m(Assistant)产品上。
+其中像自动[4m驾驶[0m(drive)汽车这样的新领域，就需要制定“适当的新规则”；而在医疗保健这块，则可以将一部分已经成熟的法规体系运用在人工智能类的[4m辅助[0m(Assistant)产品上。
 这已经不是Google第一次针对人工智能技术如何被运用的问题[4m表态[0m(State)。
-作为目前在AI领域进展较快的科技巨头，Google[4m总会[0m(General meeting)在人工智能项目上遭到[4m道德[0m(Morality)[4m准则[0m(Criterion)的[4m声讨[0m(denounce)。
-两年前，Google就因为和美国五角大楼展开军事[4m无人机[0m(Drone)合作，引发了一次巨大的[4m舆论[0m(public opinion)[4m风波[0m(Storm)。
-之后皮蔡专门发表了一篇[4m博文[0m(Blog post)，明确了7条人工智能指导原则，同时强调Google不会把人工智能技术用于武器以及大规模监控。
+作为目前在AI领域[4m进展[0m(progress)较快的科技[4m巨头[0m(Giant)，Google[4m总会[0m(General meeting)在人工智能项目上遭到[4m道德[0m(Morality)[4m准则[0m(Criterion)的[4m声讨[0m(denounce)。
+两年前，Google就因为和美国五角大楼展开[4m军事[0m(military)[4m无人机[0m(Drone)合作，引发了一次巨大的[4m舆论[0m(public opinion)[4m风波[0m(Storm)。
+之后皮蔡专门发表了一篇[4m博文[0m(Blog post)，明确了7条人工智能指导原则，同时强调Google不会把人工智能技术用于武器以及大规模[4m监控[0m(monitor)。
 可在这起事件后，很多人也开始质疑大公司能否[4m守住[0m(Hold)自己“不[4m作恶[0m(Evil)”的承诺。
 当时就有观点提出说，想要确保企业能在[4m合乎[0m(At all)[4m伦理[0m(ethics)道德的情况下发展AI技术，只能通过政府监管来实现。
 Google不是没考虑过建立自己的监管委员会，它们在2019就尝试过这一方法，用来确保AI项目能符合自己[4m定下[0m(Set down)的法规。
-然而，该组织从最开始的成员构成上就十分[4m可疑[0m(suspicious)。原因在于名单上出现了一位曾参与过[4m军方[0m(military)无人机研发的成员，而另一位社会人士也有过[4m反同性恋[0m(Continuously)言论，这让人们觉得Google是在有意平衡[4m激进派[0m(Radical)和[4m保守派[0m(conservative)双方的意见，但Google[4m员工们[0m(Employees)显然不希望自己受到[4m约束[0m(constraint)。
+然而，该组织从最开始的成员构成上就十分[4m可疑[0m(suspicious)。原因在于名单上出现了一位曾参与过[4m军方[0m(military)无人机研发的成员，而另一位社会人士也有过[4m反同性恋[0m(Continuously)言论，这让人们觉得Google是在[4m有意[0m(Intentionally)平衡[4m激进派[0m(Radical)和[4m保守派[0m(conservative)双方的意见，但Google[4m员工们[0m(Employees)显然不希望自己受到[4m约束[0m(constraint)。
 最终，这个委员会只成立了9天，就被Google宣布[4m解散[0m(Dissolve)，可见在人工智能监管这件事上并没有想象中那么轻松，尤其是当不同利益[4m相关者[0m(relevant person)[4m共处[0m(Coexistence)一室的情况下，达成一致意见反而更加困难。
 另一方面，不同国家、地区在人工智能监管上也出现了[4m分歧[0m(Difference)。
-其中美国[4m白宫[0m(White House)就鼓励企业在公平、[4m非歧视[0m(Non-discrimination)、[4m透明[0m(transparent)公开与安全的情况下，更广泛应用和AI相关的技术，它们认为政府的“[4m官僚主义[0m(Bureaucracy)”才是阻碍人工智能发展的[4m源头[0m(source)，而监管更是会[4m扼杀[0m(Strangle)创新。
-可是在欧洲，则更[4m倾向于[0m(Tendency to)采取直接[4m干预[0m(Intervene)的手段。前两天[4m欧盟[0m(EU)委员会就考虑在未来3-5年内禁止公共场所使用[4m人脸[0m(human face)[4m识别[0m(Identify)，[4m直至[0m(Until)产品安全法规能[4m适用于[0m(Suitable)人工智能的项目为止。
-所以，对Google这类拥有巨大[4m体量[0m(Volume)的国际公司来说，它们一方面需要保证技术创新，满足大众期待；另一方面也要不断回应来自员工、社会大众[4m乃至[0m(and even)是政府监管机构的[4m诉求[0m(Appeal)，解决人工智能可能会带来的威胁，这些都会带来[4m额外[0m(additional)的成本和技术挑战。
+其中美国[4m白宫[0m(White House)就鼓励企业在[4m公平[0m(fair)、[4m非歧视[0m(Non-discrimination)、透明公开与安全的情况下，更广泛应用和AI相关的技术，它们认为政府的“[4m官僚主义[0m(Bureaucracy)”才是阻碍人工智能发展的[4m源头[0m(source)，而监管更是会[4m扼杀[0m(Strangle)创新。
+可是在欧洲，则更[4m倾向于[0m(Tendency to)采取直接[4m干预[0m(Intervene)的手段。前两天欧盟委员会就考虑在未来3-5年内禁止公共场所使用[4m人脸[0m(human face)[4m识别[0m(Identify)，[4m直至[0m(Until)产品安全法规能[4m适用于[0m(Suitable)人工智能的项目为止。
+所以，对Google这类拥有巨大[4m体量[0m(Volume)的国际公司来说，它们一方面需要保证技术创新，满足大众期待；另一方面也要不断回应来自员工、社会大众乃至是政府监管机构的[4m诉求[0m(Appeal)，解决人工智能可能会带来的威胁，这些都会带来[4m额外[0m(additional)的成本和技术挑战。
 也[4m如皮蔡[0m(Chi Cai)指出的那样，没有一个公司或行业可以[4m单独[0m(alone)应对新技术的发展，也不能一直[4m停留[0m(Stay)在[4m纸上谈兵[0m(Talk on paper)的层面。
 当人工智能技术的逐渐深入大众，它[4m终究会[0m(Finally)和“可管可不管”的现状[4m划下[0m(Put down)[4m界限[0m(limit)，也无法再不受监管的影响。

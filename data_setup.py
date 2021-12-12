@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 
+'''
+segment data using spacy
+create frequency dict from THUCnews articles
+'''
+
 import spacy, torch
 import os
-import pickle
 import math
 from cjklib import characterlookup
 import re
@@ -37,9 +41,12 @@ def segment_test():
         for token in doc:
             write_to.write(token.text + ' ')
 
+
+'''
+create and save dict of words from THUCnews w word frequencies
+'''
 def count_frequencies():
     FREQUENCY_DICT = {}
-    CHAR_FREQUENCY_DICT = {}
     path = "data/segmented_THUCNews"
     for dir in os.listdir(path):
         if dir.startswith('.') or dir.__contains__('annotations'):
@@ -54,33 +61,9 @@ def count_frequencies():
                     FREQUENCY_DICT[s] += 1
                 else:
                     FREQUENCY_DICT[s] = 1
-                for c in s:
-                    if c in CHAR_FREQUENCY_DICT:
-                        CHAR_FREQUENCY_DICT[c] += 1
-                    else:
-                        CHAR_FREQUENCY_DICT[c] = 1
     torch.save(FREQUENCY_DICT, 'data/frequency_dict')
-    torch.save(CHAR_FREQUENCY_DICT, 'data/char_frequency_dict')
-
-def calculate_standard_dev(d):
-    total = 0
-    for key in d:
-        total += d[key]
-    average = total/len(d) # = 34, jieba=65
-    print(average)
-
-    total = 0
-    for k in d:
-        s = pow(d[key] - average, 2)
-        total += s
-    variance = total/len(d)
-
-    sd = math.sqrt(variance)
-    print(sd)
-    return sd # = 33, jieba=64
 
 def main():
-    segment_thucnews()
     count_frequencies()
 
 if __name__ == "__main__":
